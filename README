@@ -1,0 +1,21 @@
+http://weblogs.asp.net/soever/archive/2011/05/03/nuget-should-you-check-in-packages-into-source-control.aspx
+
+It describes how you can install all missing packages using the command-line version of nuget.exe with the following command: NuGet install MyProject\packages.config –OutputDirectory Packages
+
+From the documentation:
+
+usage: NuGet install packageId|pathToPackagesConfig [options]
+
+Install a package from a given source. If no source is specified the default feed is used.
+
+     Specify the id and optionally the version of the package to install. If a path to a  
+     packages.config file is used instead of an id, all the packages it contains are installed.
+
+options:
+
+Source                     The location to look for packages. 
+OutputDirectory            Specifies the directory in which packages will be installed 
+Version                    The version of the package to install.
+ExcludeVersion       (x)   If set, the destination folder will contain only the package name, not the version number 
+Help                 (?)   help
+
