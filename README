@@ -1,3 +1,22 @@
+FRedis - F# example app on Redis
+
+This application was written to demonstrate the use of Redis for the purposes of a presention to the BroSQL (Brisbane NoSQL) meetup group.
+
+It was written in F# and parses through a file structure and puts various details into Redis. 
+
+A number of commands are then written using redis-cli to show unions of sets, syncing and other aspects of this fine database.
+
+The associated presentation is included in the directory /Presentation.
+
+INSTALLATION
+
+I have chosen not to include the nuget packages in source control. Please clone code and follow these instructions to build.
+
+I may add I have thoroughly  enjoyed this exercise and look forward to using Redis in the future
+
+
+
+
 http://weblogs.asp.net/soever/archive/2011/05/03/nuget-should-you-check-in-packages-into-source-control.aspx
 
 It describes how you can install all missing packages using the command-line version of nuget.exe with the following command: NuGet install MyProject\packages.config –OutputDirectory Packages

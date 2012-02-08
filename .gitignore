@@ -1,5 +1,7 @@
 _ReSharper.FRedisNeo4jFileParser
 packages
+bin
+obj
 
 # Compiled source #
 ###################
